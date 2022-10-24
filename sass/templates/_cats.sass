@@ -1,0 +1,56 @@
+.cats
+    padding-bottom: 50px
+    background: $beige
+    &-title
+        display: flex
+        width: 500px
+        font-size: 25px
+    &-menu
+        margin-top: 90px
+        padding-bottom: 100px
+        display: flex
+        justify-content: center
+        &__item
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 30px
+            width: 140px
+            height: 50px
+            background: $bac-beige
+            color: $brown
+            margin-right: 20px
+            &:last-child
+                margin: 0 
+            &:hover
+                color: $wbeige
+                background: $d-brown
+                border: 1px solid $brown
+                box-shadow: 7px 7px 5px $s-brown
+                transition: all 200ms ease 0s
+        
+    &-button
+        display: flex
+        justify-content: center
+.cards
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    justify-content: space-between
+    padding-bottom: 50px
+    &-card
+        width: 301px
+        height: 363px
+        background: $white
+        margin-bottom: 20px
+        border: 1px solid $brown
+        cursor: pointer
+        &__text
+            display: flex
+            justify-content: center
+            color: $brown
+            font-style: 25px
+            padding-top: 10px
+    
+
+    
